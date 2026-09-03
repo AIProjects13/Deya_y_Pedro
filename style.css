@@ -141,6 +141,7 @@ section+section{border-top:1px dashed var(--pink-light)}
   object-fit:cover;
   border-radius:2px;
 }
+.polaroid-photo img{object-position:center 20%}
 .polaroid::before{
   content:'';
   position:absolute;
@@ -239,6 +240,16 @@ section+section{border-top:1px dashed var(--pink-light)}
   margin-bottom:.25rem;
 }
 .contribution-box p{font-size:.78rem;color:var(--coffee);line-height:1.4}
+.notice{
+  margin-top:.7rem;
+  text-align:center;
+  font-size:.78rem;
+  font-weight:600;
+  color:var(--pink-deep);
+  background:var(--pink-light);
+  border-radius:var(--radius-sm);
+  padding:.55rem .8rem;
+}
 
 /* ===== Ubicación ===== */
 .address{text-align:center;font-size:.85rem;font-weight:500;margin-bottom:1rem;color:var(--coffee)}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deya & Pedro · Última Rodeada</title>
+<meta property="og:title" content="🤠 Deya & Pedro · ¡Última Rodeada!">
+<meta property="og:description" content="Despedida de soltera mixta. 17 de octubre, 4:00 PM. ¡Confirma tu asistencia!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700;1,800&family=Poppins:wght@400;500;600;700&family=Rye&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<main class="card">
+
+<header class="hero">
+<div class="sparkle-layer"></div>
+<span class="badge">🪩 Despedida de Soltera Mixta</span>
+<div class="hero-icons">🤠🍸🎉</div>
+<h1>Deya &amp; Pedro</h1>
+<p class="hero-sub">¡Su Última Rodeada!</p>
+<svg class="divider" viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 6 Q 50 -4 100 6 T 200 6" fill="none" stroke-width="2"/>
+</svg>
+</header>
+
+<div class="content-grid">
+<section class="gallery-section">
+<h2 class="section-title">Nuestro Estilo</h2>
+<div class="gallery-grid">
+<figure class="polaroid"><img src="img/mujer-deya.jpg" alt="Deya's Last Rodeo" loading="lazy"><figcaption class="caption">Deya 🩷</figcaption></figure>
+<figure class="polaroid"><img src="img/hombre-rodeo.jpg" alt="My Last Rodeo Bachelor Party" loading="lazy"><figcaption class="caption">Pedro 🤠</figcaption></figure>
+<figure class="polaroid"><img src="img/hombre-pedro.jpg" alt="Pedro's Bachelor Party" loading="lazy"><figcaption class="caption">Roped For Life</figcaption></figure>
+<figure class="polaroid"><img src="img/mujer-pony.jpg" alt="Pink Pony Club" loading="lazy"><figcaption class="caption">Let's Go Girls</figcaption></figure>
+</div>
+</section>
+
+<section class="countdown-section">
+<h2 class="section-title">Nos vemos en</h2>
+<div class="countdown">
+<div class="unit"><span class="num" id="cd-days">00</span><span class="label">Días</span></div>
+<div class="unit"><span class="num" id="cd-hours">00</span><span class="label">Hrs</span></div>
+<div class="unit"><span class="num" id="cd-minutes">00</span><span class="label">Min</span></div>
+<div class="unit"><span class="num" id="cd-seconds">00</span><span class="label">Seg</span></div>
+</div>
+<p class="date-line">Viernes 17 de Octubre · 4:00 PM</p>
+</section>
+
+<section class="activities-section">
+<h2 class="section-title">¿Qué nos espera?</h2>
+<ul class="activity-grid">
+<li class="activity"><span class="icon">💃</span><span class="label">Show en Vivo</span></li>
+<li class="activity"><span class="icon">👑</span><span class="label">Drag Queens</span></li>
+<li class="activity"><span class="icon">🎤</span><span class="label">Karaoke</span></li>
+<li class="activity"><span class="icon">🌮</span><span class="label">Tacos</span></li>
+</ul>
+</section>
+
+<section class="dresscode-section">
+<h2 class="section-title">Dress Code</h2>
+<div class="dresscode-grid">
+<div class="dc-card dc-girls">
+<h3>Para Ellas · Pink & Glitter</h3>
+<p>Rosa, brillos y toque cowgirl: botas, sombrero y mucho glam.</p>
+</div>
+<div class="dc-card dc-guys">
+<h3>Para Ellos · Western</h3>
+<p>Tonos tierra, denim y sombrero vaquero. Estilo rodeo clásico.</p>
+</div>
+</div>
+</section>
+
+<section class="contribution-section">
+<h2 class="section-title">Colaboración</h2>
+<div class="contribution-box">
+<span class="amount">Q200.00</span>
+<p>Por persona · Cubre comida y el regalo para los novios</p>
+</div>
+</section>
+
+<section class="location-section">
+<h2 class="section-title">Ubicación</h2>
+<p class="address">5ta Calle 0-95, Sector A-4, Loma Real</p>
+<div class="map-buttons">
+<button id="btnMaps" class="map-btn btn-maps">
+<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+Abrir en Google Maps
+</button>
+<button id="btnWaze" class="map-btn btn-waze">
+<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+Abrir en Waze
+</button>
+</div>
+</section>
+
+<section class="rsvp-section">
+<h2 class="section-title">Confirma tu Asistencia</h2>
+<a id="rsvpBtn" class="rsvp-btn" target="_blank" rel="noopener">
+<svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+Confirmar por WhatsApp
+</a>
+</section>
+</div>
+
+<footer>
+<p>Con cariño te esperamos · Deya &amp; Pedro 🤠</p>
+</footer>
+
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

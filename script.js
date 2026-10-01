@@ -1,7 +1,7 @@
 const CONFIG = {
   eventDate: '2026-10-17T16:00:00',
-  lat: 14.611268043518066,
-  lng: -90.60832977294922,
+  lat: 14.48655676,
+  lng: -90.617943138,
   whatsappNumber: '50259749967',
   whatsappMessage: '¡Hola! 🤠✨ Confirmo mi asistencia a la despedida mixta de Deya & Pedro el 17 de octubre.'
 };
